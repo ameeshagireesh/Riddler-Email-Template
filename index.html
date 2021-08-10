@@ -4,156 +4,200 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
-    <style type="text/css">
-        body {
-            margin: 0;
-            background-color: black;
+    <title>Riddler</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .parent {
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            background-size: fill;
+            background-image: url("https://i.imgur.com/giEGq2E.png");
+            padding-bottom: 50px;
         }
 
-        table {
-            border-spacing: 0;
+        .center-rect {
+            background-repeat: no-repeat;
+            width: 600px;
+            border: 2.5px #DBF429 solid;
+            border-radius: 50px;
+            background-color: rgba(0, 0, 0, 0.6);
+            align-items: center;
+            padding: 3%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 50px;
         }
 
-        td {
-            padding: 0;
+        .txt {
+            position: relative;
+            color: white;
+            padding: 0%;
+            font-family: 'Poppins', sans-serif;
+            width: 49ch;
+            font-size: 1.2rem;
+            text-align: justify;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .left-txt {
+            position: relative;
+            color: white;
+            padding: 2%;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.98rem;
+            text-align: left;
+            margin-top: 0px;
+        }
+
+        .reg-butt {
+            width: 170px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .logo {
+            padding-top: 50px;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .date {
+            margin-bottom: 20px;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         img {
-            border: 0;
+            width: 100%;
         }
 
-        .wrapper {
-            width: 100%;
-            table-layout: fixed;
-            padding-bottom: 40px;
+        .riddler-link,
+        .riddler-link:visited,
+        .riddler-link:active {
+            color: #DBF429;
         }
 
-        .main {
-            margin: 0 auto;
-            width: 100%;
-            max-width: 70%;
-            border-spacing: 0;
-            font-family: 'Courier New', Courier, monospace;
+        .socials-link,
+        .socials-link:visited,
+        .riddler-link:active {
             color: white;
-            background-image: url(img/rectangle.png);
         }
 
-        @media screen and (max-width: 600px) {}
+        .label {
+            width: 55%;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .csi-logo {
+            width: 35%;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media screen and (max-width: 700px) {
+            .center-rect {
+                width: 80vw;
+                padding: 7% 5%;
+                border-radius: 25px;
+                border-width: 1px;
+            }
+
+            .logo {
+                width: 71.5vw;
+                padding-top: 25px;
+            }
+
+            .date {
+                width: 35.7vw;
+            }
+
+            .txt {
+                font-size: 2.8vw;
+                width: 45ch;
+            }
+
+            .reg-butt {
+                width: 24.2vw;
+            }
+
+            .left-txt {
+                font-size: 2.8vw;
+            }
+        }
     </style>
 </head>
 
-<body background="img/BG.png">
-    <center class="wrapper">
-        <table class="main" width="100%">
-            <tr >
-                <td >
-                    <table width="100%" >
-                        <tr>
-                            <td>
-                                <table>
-                                    <tr>
-                                        <td style="text-align: center; padding: 20px">
-                                            <a href="https://riddler.csivit.com">
-                                                <img src="img/logo.png" width="60%">
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="text-align: center; padding: 20px">
-                                            <img src="img/date.png" width="40%">
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 15px;">
-                                            <table width="100%">
-                                                <tr>
-                                                    <td style="padding:50px ;">
-                                                        <p style="color:white;">
-                                                            The Computer Society of India-VIT is delighted to present
-                                                            <br>
-                                                            Riddler 2021, the 9th edition of our online cryptic <br>
-                                                            hunt.
-                                                        </p>
-                                                        <p style="color:white;">
-                                                            We at CSI-VIT organize a variety of events and workshops,
-                                                            <br>
-                                                            both technical and non-technical with the purpose of <br>
-                                                            fostering a culture of innovation and creation.
-                                                        </p>
-                                                        <p style="color:white;">
-                                                            Riddler is a one-of-a-kind free online event where players
-                                                            <br>
-                                                            are challenged to crack puzzles by looking for clues <br>
-                                                            scattered all over the Internet. The puzzles are based on
-                                                            <br>
-                                                            three exhilrating themes: Mythical Past, Digital Present,
-                                                            <br>
-                                                            and Dystopian Future.
-                                                        </p>
-                                                        <p style="color:white;">
-                                                            The players have 72 hours starting from the 20th of <br>
-                                                            August, to top the leaderboard and win exciting prizes in
-                                                            <br>
-                                                            both cash and kind; courtesy of our sponsors.
-                                                        </p>
-                                                        <p style="color:white;">
-                                                            Register Now for Riddler 2021!
-                                                        </p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="text-align: center;">
-                                                        <a href="https://riddler.csivit.com/register">
-                                                            <img src="img/reg-butt.png" width="40%">
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="padding: 50px;">
-                                                        <p style="color:white;">
-                                                            To stay up to date with Riddler and CSI check out our <br>
-                                                            social media pages. You can find us on:
-                                                        </p>
-                                                        <a href="https://www.linkedin.com/company/csivitu/">Linkedin</a>
-                                                        <br>
-                                                        <a href="https://www.instagram.com/csivitu">Instagram</a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <p style="color:white; padding: 50px;">
-                                                            We can't wait to see you there!
-                                                            <img src="img/label.png" align="right" width="150"
-                                                                height="100">
-                                                                <td>
-                                                                                <a href="https://www.instagram.com/csivitu">
-                                                                                <img src="img/instagram.png"></a>
-                                                                                <a href="https://www.twitter.com/csivitu">
-                                                                                <img src="img/twitter.png"></a>
-                                                                                <a href="https://www.linkedin.com/company/csivitu">
-                                                                                <img src="img/linkedin.png"></a>
-                                                                                <a href="https://www.facebook.com/csivitu">
-                                                                                <img src="img/fb.png"></a>
-                                                                </td>
-                                                        </p>
-                                                    </td>
-
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>>
-            <tr>
-
-            </tr>
-        </table>
-    </center>
+<body>
+    <div class="parent">
+        <div class="logo">
+            <a href="https://riddler.csivit.com">
+                <img src="https://i.imgur.com/0xgEZgK.png"> </a>
+        </div>
+        <div class="date">
+            <img src="https://i.imgur.com/q1gyexx.png">
+        </div>
+        <div class="center-rect">
+            <p class="txt">
+                The Computer Society of India-VIT is delighted to
+                present Riddler 2021, the 9th edition of our annual
+                online cryptic hunt.
+            </p>
+            <p class="txt">
+                We at CSI-VIT organize a variety of events and
+                workshops, both technical and non-technical with the
+                purpose of fostering a culture of innovation and
+                creation.
+            </p>
+            <p class="txt">
+                Riddler is a one-of-a-kind free online event where
+                players are challenged to crack puzzles by looking for
+                clues scattered all over the internet. The puzzles are
+                based on three exhilarating themes: Mythical Past,
+                Digital Present, and Dystopian Future.
+            </p>
+            <p class="txt">
+                The players have 72 hours starting from the 20th of
+                August to top the leaderboard and win exciting prizes
+                in both cash and kind; courtesy of our sponsors.
+            </p>
+            <p class="txt">
+                Register now for Riddler 2021 at <a href="https://riddler.csivit.com" class="riddler-link"> <i>
+                        www.riddler.csivit.com </i> </a>.
+            </p>
+            <div class="reg-butt" style="align-items: center;">
+                <a href="https://riddler.csivit.com/register">
+                    <img src="https://i.imgur.com/ibV1R6x.png"> </a> <br>
+            </div>
+            <div>
+                <div style="width: 65%; float: left;">
+                    <p class="left-txt">
+                        To stay up to date with Riddler and CSI check out
+                        our website <a href="https://riddler.csivit.com"
+                            class="riddler-link"><i>www.riddler.csivit.com</i></a>. You can find
+                        us on other social media pages: <br>
+                        <a href="https://www.linkedin.com/company/csivitu" class="socials-link">Linkedin</a> <br>
+                        <a href="https://www.instagram.com/csivitu" class="socials-link">Instagram</a> <br>
+                        We can't wait to see you there!
+                    </p>
+                </div>
+                <div class="label" style="width: 35%; float: right; height:137.45px;">
+                    <a href="https://linktr.ee/CSIVIT">
+                        <img src="https://i.imgur.com/GtT3FHE.png"> </a>
+                </div>
+            </div>
+            <div class="csi-logo">
+                <img src="https://i.imgur.com/tR6j32O.png">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
