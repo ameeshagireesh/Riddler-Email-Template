@@ -5,11 +5,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Riddler</title>
-    <link rel="stylesheet" href="/css/all.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+
         .parent {
             align-items: center;
             margin-left: auto;
@@ -36,7 +38,7 @@
             position: relative;
             color: white;
             padding: 0%;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
             width: 49ch;
             font-size: 1.2rem;
             text-align: justify;
@@ -47,11 +49,13 @@
         .left-txt {
             position: relative;
             color: white;
-            padding: 2%;
-            font-family: 'Poppins', sans-serif;
+            padding-left: 8%;
+            font-family: 'Roboto', sans-serif;
             font-size: 0.98rem;
             text-align: left;
             margin-top: 0px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .reg-butt {
@@ -90,17 +94,22 @@
             color: white;
         }
 
+        .social-icon{
+            transform: translateY(3px);
+        }
+
         .label {
-            width: 55%;
+            width: 50%;
             margin-top: auto;
             margin-bottom: auto;
         }
 
         .csi-logo {
-            width: 35%;
-            margin-top: 10px;
+            width: 25%;
+            margin-top: 50px;
             margin-left: auto;
             margin-right: auto;
+            padding-top: 10px;
         }
 
         @media screen and (max-width: 700px) {
@@ -184,10 +193,12 @@
                         our website <a href="https://riddler.csivit.com"
                             class="riddler-link"><i>www.riddler.csivit.com</i></a>. You can find
                         us on other social media pages: <br>
-                        <i class="fab fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/company/csivitu" class="socials-link">LinkedIn</a> <br>
-                        <i class="fab fa-instagram"></i>
-                        <a href="https://www.instagram.com/csivitu" class="socials-link">Instagram</a> <br>
+                        <a href="https://www.linkedin.com/company/csivitu" class="socials-link">
+                            <img src="https://static.csivit.com/riddler-21/linkedin.png" style="width: 1rem" class="social-icon">
+                            LinkedIn</a> <br>
+                        <a href="https://www.instagram.com/csivitu" class="socials-link">
+                            <img src="https://static.csivit.com/riddler-21/ig.png" style="width: 1rem" class="social-icon">
+                            Instagram</a> <br>
                         We can't wait to see you there!
                     </p>
                 </div>
