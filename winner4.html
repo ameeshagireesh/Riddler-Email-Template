@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riddler</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .parent {
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            background-size: contain;
+            background-image: url("https://i.imgur.com/giEGq2E.png");
+            padding-bottom: 50px;
+        }
+
+        .center-rect {
+            background-repeat: no-repeat;
+            width: 600px;
+            border: 2.5px #DBF429 solid;
+            border-radius: 50px;
+            background-color: rgba(0, 0, 0, 0.6);
+            align-items: center;
+            padding: 3%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 50px;
+        }
+
+        .txt {
+            position: relative;
+            color: white;
+            padding: 0%;
+            font-family: 'Roboto', sans-serif;
+            width: 49ch;
+            font-size: 1.2rem;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .left-txt {
+            position: relative;
+            color: white;
+            padding-left: 8%;
+            padding-right: 2%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.98rem;
+            text-align: left;
+            margin-top: 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .reg-butt {
+            width: 170px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 10px;
+            padding-bottom: 22px;
+        }
+
+        .logo {
+            padding-top: 50px;
+            width: 539px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .date {
+            margin-bottom: 20px;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .riddler-link,
+        .riddler-link:visited,
+        .riddler-link:active {
+            color: #DBF429;
+        }
+
+        .socials-link,
+        .socials-link:visited,
+        .riddler-link:active {
+            color: white;
+        }
+
+        .social-icon {
+            transform: translateY(2.5px);
+            width: 1rem;
+        }
+
+        .label {
+            width: 50%;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .csi-logo {
+            width: 220px;
+            margin-top: 70px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding-top: 50px;
+        }
+
+        @media screen and (max-width: 700px) {
+            .center-rect {
+                width: 80vw;
+                padding: 7% 5%;
+                border-radius: 25px;
+                border-width: 1px;
+            }
+
+            .logo {
+                width: 71.5vw;
+                padding-top: 25px;
+            }
+
+            .date {
+                width: 35.7vw;
+            }
+
+            .txt {
+                font-size: 2.8vw;
+                width: 45ch;
+            }
+
+            .reg-butt {
+                width: 24.2vw;
+            }
+
+            .left-txt {
+                font-size: 2.8vw;
+            }
+
+            .social-icon {
+                width: 0.6rem;
+                transform: translateY(0.8px);
+            }
+
+            .csi-logo {
+                width: 110px;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="logo">
+            <a href="https://riddler.csivit.com">
+                <img src="https://i.imgur.com/0xgEZgK.png"> </a>
+        </div>
+        <!-- <div class="date">
+            <img src="https://i.imgur.com/q1gyexx.png">
+        </div> -->
+        <div class="center-rect">
+            <p class="txt">
+                Greetings from CSI-VIT!
+            </p>
+            <p class="txt">
+                Congratulations @gligy on winning in Riddler 2021! 
+                You have won the fourth place and a cash prize of ₹3,500! 
+                We would like to take this opportunity to thank you for taking part and making Riddler a huge success.
+            </p>
+            <p class="txt">
+                Here’s to hoping you learned about mythological stories, dystopian fantasies, 
+                and digital trends while you were on your journey to solve our puzzles.
+            </p>
+            <p class="txt">
+                Your consistent and rigorous approach in solving our riddles throughout the 72 hours have truly inspired everybody, 
+                the players and the organizers. We had over 1100 participants spread across various continents register and take 
+                part in the game, and to come fourth amongst all of them, is a rare feat indeed! 
+                And for that we congratulate you once again!
+            </p>
+            <p class="txt">
+                In addition to the monetary prize, you are also eligible to avail Replit coupons for one free month of their hacker plan. 
+                These coupons are redeemable by following this link: 
+                <a href="https://replit.com/login?goto=/claim?code=CSI-VIT" class="riddler-link"> <i>
+                    https://replit.com/login?goto=/claim?code=CSI-VIT </i> </a>. 
+            </p>
+            <p class="txt">
+                We will be contacting you soon regarding the monetary prizes, goodies and schwags.
+            </p>
+            <div style="padding-bottom: 30px;">
+                <div style="width: 65%; float: left;">
+                    <p class="left-txt">
+                        To stay up to date with us, follow us on our social handles:  <br>
+                        <a href="https://www.linkedin.com/company/csivitu" class="socials-link">
+                            <img src="https://static.csivit.com/riddler-21/linkedin.png" class="social-icon">
+                            LinkedIn</a> <br>
+                        <a href="https://www.instagram.com/csivitu" class="socials-link">
+                            <img src="https://static.csivit.com/riddler-21/ig.png" class="social-icon">
+                            Instagram</a> <br>
+                    </p>
+                </div>
+                <div class="label" style="width: 25%; float: right; height:137.45px;">
+                    <a href="https://linktr.ee/CSIVIT">
+                        <img src="https://static.csivit.com/riddler-21/label.png"> </a>
+                </div>
+            </div>
+            <div class="csi-logo">
+                <a href="https://csivit.com">
+                    <img src="https://i.imgur.com/tR6j32O.png"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
